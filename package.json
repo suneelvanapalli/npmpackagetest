@@ -1,0 +1,18 @@
+{
+  "name": "@suneelvanapalli/publish-package-demo",
+  "version": "1.0.0",
+  "description": "This is to test publishing the package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "a developer",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suneel/repository-name.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
